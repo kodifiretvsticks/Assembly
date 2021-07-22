@@ -114,13 +114,6 @@ namespace Assembly.Helpers
 					catch
 					{
 					}
-				else if (realHistory.EndsWith("autoaim"))
-					try
-					{
-						IWff.Play();
-					}
-					catch
-					{
 					}
 				else if (realHistory.EndsWith("wtfisthis"))
 					try
